@@ -5,6 +5,7 @@ from app import app as flask_app # Renomme pour éviter conflit
 def app():
     """Crée une instance de l'application Flask pour les tests."""
     yield flask_app
+ERREUR
 
 @pytest.fixture
 def client(app):
